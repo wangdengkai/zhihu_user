@@ -1,0 +1,180 @@
+郭启军个人页面
+https://www.zhihu.com/people/guo-qi-jun-58/activities
+
+个人页面获取所有信息:
+https://www.zhihu.com/api/v4/members/guo-qi-jun-58/activities?limit=7&after_id=1531807891&desktop=True
+
+获取关注了:
+https://www.zhihu.com/api/v4/members/guo-qi-jun-58/followees?
+include=data%5B*%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F(type%3Dbest_answerer)%5D.topics
+&
+offset=0
+&
+limit=20
+获取关注了的响应:(paging键里面包含下一页的连接,)
+{
+paging:{
+    "is_end": false,
+    "totals": 71,
+    "previous": "http://www.zhihu.com/api/v4/members/guo-qi-jun-58/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20",
+    "is_start": false,
+    "next": "http://www.zhihu.com/api/v4/members/guo-qi-jun-58/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=60"
+}
+data:{
+	[
+	{
+    "is_followed": false,
+    "avatar_url_template": "https://pic3.zhimg.com/4bce13b80323c1a636d81400abd24da4_{size}.jpg",
+    "user_type": "people",
+    "answer_count": 7,
+    "is_following": false,
+    "headline": "半夜兴奋综合症患者",
+    "url_token": "zhang-xiao-fan-92-25",
+    "id": "8bb9c2b8cf1ee60159223d941099d136",
+    "articles_count": 0,
+    "type": "people",
+    "name": "哪吒是男的吗",
+    "url": "http://www.zhihu.com/api/v4/people/8bb9c2b8cf1ee60159223d941099d136",
+    "gender": 1,
+    "is_advertiser": false,
+    "avatar_url": "https://pic3.zhimg.com/4bce13b80323c1a636d81400abd24da4_is.jpg",
+    "is_org": false,
+    "follower_count": 4,
+    "badge": []
+	}
+]
+}
+}
+
+
+获取关注者
+https://www.zhihu.com/api/v4/members/guo-qi-jun-58/followers?
+include=data%
+5B*%
+5D.answer_count%
+2Carticles_count%
+2Cgender%
+2Cfollower_count%
+2Cis_followed%
+2Cis_following%
+2Cbadge%
+5B%
+3F(type%
+3Dbest_answerer)%
+5D.topics
+&
+offset=0
+&
+limit=20
+获取关注者的响应:
+paging:{
+    "is_end": false,
+    "totals": 159,
+    "previous": "http://www.zhihu.com/api/v4/members/guo-qi-jun-58/followers?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0",
+    "is_start": true,
+    "next": "http://www.zhihu.com/api/v4/members/guo-qi-jun-58/followers?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20"
+}
+
+关注郭的头像上鼠标划过(这里获取的响应就是每个人的个人信息)
+https://www.zhihu.com/api/v4/members/han-xiao-tong-16-37?
+include=allow_message%
+2Cis_followed%
+2Cis_following%
+2Cis_org%
+2Cis_blocking%
+2Cemployments%
+2Canswer_count%
+2Cfollower_count%
+2Carticles_count%
+2Cgender%
+2Cbadge%
+5B%
+3F(type%
+3Dbest_answerer)%
+5D.topics
+
+郭关注的
+https://www.zhihu.com/api/v4/members/xiao-e-tong-20?
+include=allow_message%
+2Cis_followed%
+2Cis_following%
+2Cis_org%
+2Cis_blocking%
+2Cemployments%
+2Canswer_count%
+2Cfollower_count%
+2Carticles_count%
+2Cgender%
+2Cbadge%
+5B%
+3F(type%
+3Dbest_answerer)%
+5D.topics
+
+下一页:
+https://www.zhihu.com/api/v4/members/guo-qi-jun-58/followees?include=data%5B*%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F(type%3Dbest_answerer)%5D.topics&offset=40&limit=20
+
+
+
+
+
+
+
+
+
+
+用户信息:
+{
+    "is_followed": false,
+    "avatar_url_template": "https://pic4.zhimg.com/v2-7c16871ede6b1be2ab630bf1a3d7c8af_{size}.jpg",
+    "user_type": "organization",
+    "answer_count": 26,
+    "is_following": false,
+    "url": "http://www.zhihu.com/api/v4/people/61e5d592718e4355080aa29982f9516b",
+    "type": "people",
+    "url_token": "xiao-e-tong-20",
+    "id": "61e5d592718e4355080aa29982f9516b",
+    "allow_message": false,
+    "articles_count": 32,
+    "is_blocking": false,
+    "name": "小鹅通",
+    "headline": "一分钟拥有自己的知识店铺",
+    "gender": -1,
+    "is_advertiser": false,
+    "avatar_url": "https://pic4.zhimg.com/v2-7c16871ede6b1be2ab630bf1a3d7c8af_is.jpg",
+    "is_org": true,
+    "follower_count": 791,
+    "employments": [],
+    "badge": [
+        {
+            "type": "identity",
+            "description": "已认证的官方帐号"
+        }
+    ]
+}
+用户信息keys:
+
+s_followed
+avatar_url_template
+user_type
+answer_count
+is_following
+url
+type
+url_token
+id
+allow_message
+articles_count
+is_blocking
+name
+headline
+gender
+is_advertiser
+avatar_url
+is_org
+follower_count
+employments
+badge
+
+
+
