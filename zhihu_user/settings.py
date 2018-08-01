@@ -56,8 +56,9 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    'zhihu_user.middlewares.ZhihuUserDownloaderMiddleware': 543,
-  'zhihu_user.middlewares.RandomUserAgent': 10,
+  # 'zhihu_user.middlewares.RandomUserAgent': 10,
   'zhihu_user.middlewares.ProxyMiddleware': 100,
+  'zhihu_user.middlewares.RandomUserAgentMiddleware':10,
 }
 
 # Enable or disable extensions
